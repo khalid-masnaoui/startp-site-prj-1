@@ -76,7 +76,7 @@ $(document).ready(function() {
 					</div>
 				</div>
 			<div id='content24 ' data-section='content-24 ' class='data-section '>
-				<div class='col-md-6 direction toggle'>
+				<div class='col-md-6 direction direction'>
 					<h3 class='eidtContent '>Content Video</h3>
 					<p class='eidtContent '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
 						specimen book.</p>
@@ -162,7 +162,7 @@ $(document).ready(function() {
 			<div class='row '>
 			
 			<div id='content24 ' data-section='content-24 ' class='data-section '>
-				<div class='col-md-6 toggle '>
+				<div class='col-md-6 '>
 					<h3 class='eidtContent '>Content Video</h3>
 					<p class='eidtContent '>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type
 						specimen book.</p>
