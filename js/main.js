@@ -55,8 +55,8 @@ $(document).ready(function() {
     });
     // RTl support
 
-    $('.direction-jss').on('click', function() {
-
+    $(document).on('click', ".direction-jss", function() {
+        console.log("hey");
         if (!$("#toggle").hasClass("direction")) {
             $(".navigation").css("float", "left");
             $(".logo").css("float", "right");
@@ -93,20 +93,8 @@ $(document).ready(function() {
 			<div class='container '>
 			<div class='row  direction''>
 				
-				<div class='col-lg-3 col-sm-2 col-xs-3 '>
-					<h3> Contact </h3>
-					<ul>
-						<li><a class='email' href='#'> example@example.com </a></li>
-						<br/>
-						<li>
-							<p> - Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522 (257) 563-7401 </p>
-						</li>
-						<li>
-							<p>- Celeste Slater 606-3727 Ullamcorper. Street Roseville NH 11523 (786) 713-8616</p>
-						</li>
-					</ul>
-				</div>
-				<div class='col-lg-3 col-sm-2 col-xs-3 '>
+			
+				<div class='col-sm-4 text-center'>
 					<ul>
 						<li>
 							<h5> <a href='#content-3-10' style='margin-top: 5em '> ABOUT</a>
@@ -121,11 +109,25 @@ $(document).ready(function() {
 								<h5>
 						</li>
 						<li>
-	
+						<h5> <button class='direction-jss'>RTL</button>
+						</h5>
 						</li>
 					</ul>
 				</div>
-				<div class='col-lg-6 col-md-6 col-sm-6 col-xs-6 '>
+				<div class='col-sm-4 text-center'>
+				<h3> Contact </h3>
+				<ul>
+					<li><a class='email' href='#'> example@example.com </a></li>
+					<br/>
+					<li>
+						<p> - Cecilia Chapman 711-2880 Nulla St. Mankato Mississippi 96522 (257) 563-7401 </p>
+					</li>
+					<li>
+						<p>- Celeste Slater 606-3727 Ullamcorper. Street Roseville NH 11523 (786) 713-8616</p>
+					</li>
+				</ul>
+			</div>
+				<div class='col-sm-4 text-center'>
 					<h4> STARTUP</h4>
 				</div>
 				
@@ -137,7 +139,7 @@ $(document).ready(function() {
 		<!--/.footer-->
 	
 		<div class='footer-bottom direction'>
-			<div class='container '>
+			<div class='container text-center'>
 				<p class='copyright '> Copyright © Footer 2020. All right reserved. </p>
 	
 			</div>
@@ -185,10 +187,10 @@ $(document).ready(function() {
 			<div class='row'>
 
 
-			<div class='col-lg-6 col-md-6 col-sm-6 col-xs-6 '>
+			<div class='col-sm-4 text-center'>
 			<h4> STARTUP</h4>
 		</div>
-				<div class='col-lg-3 col-sm-2 col-xs-3 '>
+				<div class='col-sm-4 text-center'>
 					<h3> Contact </h3>
 					<ul>
 						<li><a class='email' href='#'> example@example.com </a></li>
@@ -201,7 +203,7 @@ $(document).ready(function() {
 						</li>
 					</ul>
 				</div>
-				<div class='col-lg-3 col-sm-2 col-xs-3 '>
+				<div class='col-sm-4 text-center'>
 					<ul>
 						<li>
 							<h5> <a href='#content-3-10' style='margin-top: 5em '> ABOUT</a>
@@ -216,7 +218,8 @@ $(document).ready(function() {
 								<h5>
 						</li>
 						<li>
-	
+						<h5> <button class='direction-jss'>RTL</button>
+						</h5>
 						</li>
 					</ul>
 				</div>
@@ -229,7 +232,7 @@ $(document).ready(function() {
 		<!--/.footer-->
 	
 		<div class='footer-bottom '>
-			<div class='container '>
+			<div class='container text-center'>
 				<p class='copyright '> Copyright © Footer 2020. All right reserved. </p>
 	
 			</div>
