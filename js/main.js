@@ -136,7 +136,7 @@ $(document).ready(function() {
 		</div>
 		<!--/.footer-->
 	
-		<div class='footer-bottom '>
+		<div class='footer-bottom direction'>
 			<div class='container '>
 				<p class='copyright '> Copyright © Footer 2020. All right reserved. </p>
 	
@@ -160,11 +160,7 @@ $(document).ready(function() {
 
             $(".direction-js_vid").html(`
 			<div class='row '>
-			<div class='col-md-6 '>
-					<div class='embed-responsive embed-responsive-16by9 '>
-						<iframe class='embed-responsive-item ' src='https://player.vimeo.com/video/146742515?badge=0 ' allowfullscreen=' '></iframe>
-					</div>
-				</div>
+			
 			<div id='content24 ' data-section='content-24 ' class='data-section '>
 				<div class='col-md-6 toggle '>
 					<h3 class='eidtContent '>Content Video</h3>
@@ -175,6 +171,11 @@ $(document).ready(function() {
 				</div>
 				
 			</div>
+			<div class='col-md-6 '>
+					<div class='embed-responsive embed-responsive-16by9 '>
+						<iframe class='embed-responsive-item ' src='https://player.vimeo.com/video/146742515?badge=0 ' allowfullscreen=' '></iframe>
+					</div>
+				</div>
 		</div>
 			`);
 
